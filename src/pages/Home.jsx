@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import arjitsingh from "../assets/images/arijitsingh1.png";
 import vector210 from "../assets/images/Vector210.png";
 import { FaArrowRight } from "react-icons/fa6";
@@ -36,7 +36,7 @@ const Home = () => {
           </span>
           100+ Categories
         </p>
-        <p className="mt-10 flex items-end gap-2 text-xl font-bold bg-gradient-to-r from-[#727272ff] via-[#FF8DB9] to-[#F86E42] bg-clip-text text-transparent">
+        <p className="mt-10 flex items-end gap-2 text-xl font-bold bg-linear-to-r from-[#727272ff] via-[#FF8DB9] to-[#F86E42] bg-clip-text text-transparent">
           Explore all categories <FaArrowRight className="text-[#FF8DB9]" />
         </p>
       </div>
