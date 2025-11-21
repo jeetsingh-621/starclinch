@@ -3,7 +3,7 @@ import svg from "../assets/Vector17.svg";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, A11y } from 'swiper/modules';
 import nora from '../assets/images/nora.png';
-import Katrina from '../assets/images/Katrina.png';
+import katrina from '../assets/images/katrina.png';
 
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -11,7 +11,7 @@ import 'swiper/css/pagination';
 
 const sliderData = [
   { id: 1, image: nora, name: 'Nora Fatehi', event: 'an event hosted by XYZ', location: 'Pune', date: '14 March 2023' },
-  { id: 2, image: Katrina, name: 'Diljit Dosanjh', event: 'a grand music festival', location: 'Mumbai', date: '01 June 2024' },
+  { id: 2, image: katrina, name: 'Diljit Dosanjh', event: 'a grand music festival', location: 'Mumbai', date: '01 June 2024' },
 ];
 
 const Recentshows = () => {
